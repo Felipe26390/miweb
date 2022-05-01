@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
+    <nav id="navegador">
         <ul>
             <li>
                 <a href="../index.html">Home</a>
@@ -38,5 +38,69 @@
             </li>
         </ul>
     </nav>
+
+<form >
+
+    <label for="nombre_apellido">Ingrese nombre y apellido</label>
+    <input type="text" name="nombre_apellido"/> <br>
+
+    <label for="edad">Ingrese Edad</label>
+    <input type="number" name="edad"/> <br>
+
+
+
+    <input type="submit" value="Enviar formulario"/>
+    <input type="reset" value="Limpiar formulario"/>
+    <input type="button" value="Sin acciones"/> <br> <br>
+
+    <div>Hombre</div>
+    <input type="radio" name="sexo" value="Hombre"/>
+
+    <div>Mujer</div>
+    <input type="radio" name="sexo" value="Mujer"/> <br> <br>
+
+    <div>Seleccione Talle</div>
+<select name="talles">
+<option value="L">Large</option>
+<option value="M">Medium</option>
+<option value="S">Small</option>
+</select>
+ 
+<div>Acepto terminos y condiciones</div>
+<input type="checkbox" name="acepta" value="1" />
+
+
+</form>
+
+    <footer>
+        <address>
+
+            Made for FJB &#128512;<br>
+
+            Felipe Jose Bouilly <br>
+            <!--En el parametro HREF debo poner la URL correspondiente a las redes sociales del B&B-->
+            <!--Enlaces interactivos a redes sociales, los linkeo a un icono, correspondiente a la red social-->
+            <div>
+                <a href="http://instagram.com/username" target="_blank"><img style="margin:5px" src="..\img\instagram.png" width="30" height="30" alt="Instagram"></a>
+                <a href="http://facebook.com/username" target="_blank"><img style="margin:5px" src="..\img\facebook.png" width="30" height="30" alt="Facebook"></a>
+                <a href="http://youtube.com/user/username" target="_blank"><img style="margin:5px" src="..\img\youtube.png" width="30" height="30" alt="YouTube"></a>
+            </div>
+
+        </address>
+
+        <ul>
+
+            <li><a href="./seccion/abautus.html">About Us</a></li>
+
+            <li><a href="./seccion/contacts.html">Contacts</a></li>
+
+            <li><a href="./seccion/gallery.html">Galley</a></li>
+
+            <li><a href="#navegador">Ir al navegador</a></li>
+
+        </ul>
+
+    </footer>
+
 </body>
 </html>
