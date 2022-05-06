@@ -5,31 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stiles/stile.css">
     <title>B&B</title>
 </head>
 
 <body>
-    <header id="header">
+    <header class="headerclass" id="header">
+    
+        <nav class="menu">
 
-        <div>
-            <img src="img\logo.png" style="margin: 6px" width="60" height="60">
-        </div>
-
-        <nav>
             <ul>
+
+                 <li>    
+                    <div class="buttonLogo">			
+                        <a href="index.html" >
+                        <img class="imagen" src="img\logo.png" style="margin: 6px" width="60 " height="60">
+                        </a>
+                    </li>
+                </li>          
+
                 <li>
+                   
+                   <!--Eliminar los estilos cuando aplique la hoja de CSS-->
+                <div class="button_home">
+                    <a href="index.html" src="img\hogar.png" >Home
                     <img src="img\hogar.png" style="margin: 4px" width="25" height="25">
-                    <a href="index.html">Home</a>
+                    </a>
+                </div>
+
                 </li>
 
                 <li>
-                    <img src="img\aboutus.png" style="margin: 4px" width="25" height="25">
-                    <a href="./seccion/abautus.html">About Us</a>
+                    <div class="buttonAbout">
+                   
+                    <a href="./seccion/abautus.html">About
+                        <img src="img\aboutus.png" style="margin: 4px" width="25" height="25">
+                    </a>
+                    </div>
+
                 </li>
 
+
+                
                 <li>
-                    <a href="./seccion/contacts.html">Contacts</a>
+                    <div> 
+                       
+                        <a href="./seccion/contacts.html">Contact
+                        <img src="img\contacto.png" style="margin: 4px" width="25" height="25">
+                       
+                    </a>
+                     </li>
                 </li>
+         
 
                 <li>
                     <a href="./seccion/experiences.html">Experiences</a>
@@ -46,39 +73,55 @@
                 <li>
                     <a href="./seccion/rooms.html">Rooms</a>
                 </li>
-                <li>
+
+               <!-- <li>
                     <a href="#imagen">Ir a la imagen</a>
+                </li> -->
+
+                <li>
+                    <a href="http://facebook.com/username" target="_blank"><img style="margin:5px"
+                            src="img\facebook.png" width="30" height="30" alt="Facebook"></a>
                 </li>
 
-            </ul>
-        </nav>
+                <li>
+                    <a href="http://youtube.com/user/username" target="_blank"><img style="margin:5px"
+                            src="img\youtube.png" width="30" height="30" alt="YouTube"></a>
+                </li>
 
-        <a href="http://facebook.com/username" target="_blank"><img style="margin:5px" src="img\facebook.png" width="30"
-                height="30" alt="Facebook"></a>
-        <a href="http://youtube.com/user/username" target="_blank"><img style="margin:5px" src="img\youtube.png"
-                width="30" height="30" alt="YouTube"></a>
-        <a href="http://whatsapp.com/user/username" target="_blank"><img style="margin:5px" src="img\whatsapp.png"
-                width="30" height="30" alt="Whatsapp"></a>
+                <li>
+                    <a href="http://whatsapp.com/user/username" target="_blank"><img style="margin:5px"
+                            src="img\whatsapp.png" width="30" height="30" alt="Whatsapp"></a>
+                </li>
+            </ul>
+            
+        </nav>
+       
     </header>
 
 
     <main>
         <!--En el main desarrollo la seccion principal de mi HTML-->
         <h1>B&B Posada</h1>
-        <!--Etiqeuta H1 encabezado principal se puede utilizar una sola vez en cada HTML. Puedo ultilizar hasta H6, no se puede saltar la gerarquia -->
-        <h2>B&B Posada</h2>
-        <h3>B&B Posada</h3>
-        <h4>B&B Posada</h4>
-        <h5>B&B Posada</h5>
-        <h6>B&B Posada</h6>
 
         <h2>Esto es un parrafo de introduccion</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci in praesentium quam itaque magni recusandae
-            earum sit, excepturi maiores. Voluptatem necessitatibus dignissimos, amet harum dolorem distinctio quaerat
-            officia repellat fugit?</p>
+
+
+        <p>Con la intención de compartir con aquellos que les gusta la vida de campo,
+            abrimos nuestra tranquera ofreciéndoles disfrutar de unos días de descanso en
+            nuestra posada.
+            Como familia criada en la ciudad, fue un gran cambio comenzar nuestra vida en
+            el ámbito rural, incorporando rutinas de trabajo muy diferentes, aprendiendo
+            con gusto y entusiasmo a vivir a través de la naturaleza logrando así otra
+            calidad de vida.Hoy queremos compartir nuestras experiencias. Jornadas de
+            campo,vivencias de nuestro trabajo, entrelazando la rusticidad del monte
+            autóctono, con sus pájaros y arroyos. Amaneceres inolvidables con desayunos
+            totalmente sanos, productos cien por ciento naturales. Una filosofía de vida que
+            apunta aprovechar todo el bienestar que nos dá respirar pura naturaleza. Te
+            invitamos a que encuentres momentos únicos con todo lo que te ofrece el
+            paisaje entrerriano.</p>
 
         <figure>
-            <img src="./img/panoramica.jpg" width="90%" height="100%" alt="lago de garda italia" id="imagen">
+            <img src="./img/panoramica.jpg" loading="lazy" width="90%" height="100%" alt="lago de garda italia" >
             <figcaption>Imagen panoramica del Lago De Garda Italia Europa 2022</figcaption>
 
         </figure>
@@ -99,7 +142,7 @@
             <!--En el parametro HREF debo poner la URL correspondiente a las redes sociales del B&B-->
             <!--Enlaces interactivos a redes sociales, los linkeo a un icono, correspondiente a la red social-->
             <div>
-                <a href="http://instagram.com/username" target="_blank"><img style="margin:5px" src="img\instagram.png"
+                <a href="https://www.instagram.com/posada_los_aromitos/" target="_blank"><img style="margin:5px" src="img\instagram.png"
                         width="30" height="30" alt="Instagram"></a>
                 <a href="http://facebook.com/username" target="_blank"><img style="margin:5px" src="img\facebook.png"
                         width="30" height="30" alt="Facebook"></a>
@@ -108,6 +151,12 @@
             </div>
 
         </address>
+
+<div id="map">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d955.480925356388!2d-58.435026899019114!3d-32.47007208360823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m0!4m5!1s0x95b031ab5dee4007%3A0xdbc60e9fdeba6e5d!2sUruguay%2C%20Entre%20R%C3%ADos%2C%20Argentina!3m2!1d-32.4232131!2d-58.4629997!5e1!3m2!1ses!2sdk!4v1651483692525!5m2!1ses!2sdk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
 
         <ul>
 

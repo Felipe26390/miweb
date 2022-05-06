@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stiles/stile.css">
     <title>Document</title>
 </head>
 
@@ -74,6 +75,55 @@
 
     </form>
 
+    <h1>Contact</h1>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Name</label>
+                    <input id="nombre" name="nombre" />
+                </div>
+                <div class="form-group">
+                    <label for="surname">Surname</label>
+                    <input id="surname" name="surname" />
+                </div>
+                <div class="form-group">
+                    <label for="address">Email</label>
+                    <input id="address" name="address" />
+                </div>
+                <address>
+                    <label for="address">Email</label>
+                    <input id="address" name="address" />
+                </address>
+
+                <div class="form-group">
+                    <label for="rooms">Rooms</label>
+                    <select id="rooms" name="rooms">
+                        <option value="1">Picadilly</option>
+                        <option value="2">Cambridge</option>
+                        <option value="3">Westminster</option>
+                    </select>
+                </div>
+                <div class="form-group ">
+                    <label>Customer?</label>
+                    <label class="check-label">Yes </label>
+                    <input type="radio" name="customer" value="1" checked>
+                    <label class="check-label" >No </label>
+                    <input type="radio" name="customer" value="0" >
+                </div>
+                <div class="form-group ">
+                    <label>Terms of service</label>
+                    <label class="check-label check-container">
+                        I agree
+                        <input type="checkbox" name="agreement" />
+                        <span class="check-layout"></span>
+                    </label>
+
+                </div>
+                <button class="button degraqdado-base">Enviar</button>
+                <div></div><br><button class="button degraqdado-base">Cancelar</button>
+            </form>
+
+
+
     <footer>
         <address>
 
@@ -95,13 +145,19 @@
 
         <ul>
 
-            <li><a href="./seccion/abautus.html">About Us</a></li>
+            <li><a href="abautus.html">About Us</a></li>
 
-            <li><a href="./seccion/contacts.html">Contacts</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
 
-            <li><a href="./seccion/gallery.html">Galley</a></li>
+            <li><a href="gallery.html">Galley</a></li>
+
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
 
             <li><a href="#navegador">Ir al navegador</a></li>
+
+            
 
         </ul>
 
