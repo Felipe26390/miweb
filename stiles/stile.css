@@ -1,50 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
-*{
+* {
     padding: 0%;
     margin: 0%;
 }
 
-.auto{
+.auto {
     width: auto;
 }
-.mi{
+
+.mi {
     width: min-content;
 }
-.max{
+
+.max {
     width: max-content;
 }
-.fit{
+
+.fit {
     width: fit-content;
 }
 
-
-header{
-    background-color: rgb(65, 65, 123);
+body .headerclass {
+    background: yellowgreen;
 }
 
-footer {font-family: 'Noto Serif', serif;}
-body {
-    background-image: url(..\img\panoramica.jpg);
-   /* background-image: radial-gradient(circle, rgb(61, 138, 61), rgb(11, 65, 9));*/
+body .headerclass nav {
+    display: inline-block;
+
 }
-ul.menu {
-    background: #F4F4F4;
-    border: 1px solid #7C7C7C;
+
+body .headerclass nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  ul.menu li {
-    float: left;
-    width: 20%;
-  }
-  ul.menu li a {
-    border-left: 1px solid #FFF;
-    border-right: 1px solid #7C7C7C;
-    color: #333;
-    display: inline;
-    padding: .3em;
+}
+
+body .headerclass nav ul> li {
+    display: inline-block;
+}
+
+body .headerclass nav ul> li a {
     text-decoration: none;
-  }
+    color: #333;
+}
+
+body .headerclass nav ul >li a img.imgLogo {
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+}
+
+body .headerclass nav ul >li a img {
+    vertical-align: text-top;
+    margin: 10px;
+    width: 35px;
+    height: 35px;
+}
