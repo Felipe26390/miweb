@@ -5,9 +5,18 @@
     margin: 0%;
 }
 
-
-
-
+.auto{
+    width: auto;
+}
+.mi{
+    width: min-content;
+}
+.max{
+    width: max-content;
+}
+.fit{
+    width: fit-content;
+}
 
 
 header{
