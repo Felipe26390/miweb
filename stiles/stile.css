@@ -5,7 +5,7 @@
     margin: 0%;
 }
 
-.auto {
+/* .auto {
     width: auto;
 }
 
@@ -19,7 +19,7 @@
 
 .fit {
     width: fit-content;
-}
+} */
 
 body .headerclass {
     background: yellowgreen;
@@ -35,23 +35,83 @@ body .headerclass nav ul {
 }
 
 body .headerclass nav ul> li {
-    display: inline-block;
+     display: inline-block;
+    
 }
 
 body .headerclass nav ul> li a {
     text-decoration: none;
     color: #333;
+
 }
 
-body .headerclass nav ul >li a img.imgLogo {
-    margin: 5px;
-    width: 45px;
-    height: 45px;
-}
 
-body .headerclass nav ul >li a img {
-    vertical-align: text-top;
-    margin: 10px;
+
+ /* body .headerclass nav ul >li a >img {
+    position: relative;
+    top: 60%;
+    transform: translateY(-10%);
+    margin: 5%;
+    padding: 10%;
+    border: 0px;
     width: 35px;
     height: 35px;
+    
+} */
+
+/* body .headerclass nav ul li a img span {
+    
+    margin: 0%;
+    padding: 0%;
+    width: 0px;
+    height: 0px;
+} */
+
+body .headerclass nav ul> li .logo{
+    margin: 7px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
 }
+/*  
+body .headerclass nav ul> li .logo.logo1{ 
+  align-items: center;
+}
+
+body .headerclass nav ul> li .logo.logo2{
+align-items: center;
+}
+*/
+
+
+/* body .headerclass nav ul> li .logo.logo3> img span{
+align-items: center;
+margin: auto;
+}  */
+
+
+/* @media (max-width: 600px) {
+    body{
+      font-size: 1.3em;
+    }
+  
+    a{
+      min-width: 40px;
+      min-height: 40px;
+    }
+  
+    header {
+      height: auto;
+    }
+    header nav {
+      position: initial;
+    }
+    header nav ul{
+      margin: 0;
+    }
+    header nav ul > li {
+      display: block;
+      text-align: center;
+      padding-top: 0.3em;
+    } }       */
