@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
 * {
-    padding: 0%;
-    margin: 0%;
+  padding: 0%;
+  margin: 0%;
 }
 
 /* .auto {
@@ -21,97 +21,215 @@
     width: fit-content;
 } */
 
-body .headerclass {
-    background: yellowgreen;
+.headerclass {
+  background: yellowgreen;
+  padding: 0px;
+  ;
 }
 
-body .headerclass nav {
-    display: inline-block;
-
-}
-
-body .headerclass nav ul {
-    list-style: none;
-}
-
-body .headerclass nav ul> li {
-     display: inline-block;
-    
-}
-
-body .headerclass nav ul> li a {
-    text-decoration: none;
-    color: #333;
+.menu {
+  display: inline-block;
 
 }
 
-
-
- /* body .headerclass nav ul >li a >img {
-    position: relative;
-    top: 60%;
-    transform: translateY(-10%);
-    margin: 5%;
-    padding: 10%;
-    border: 0px;
-    width: 35px;
-    height: 35px;
-    
-} */
-
-/* body .headerclass nav ul li a img span {
-    
-    margin: 0%;
-    padding: 0%;
-    width: 0px;
-    height: 0px;
-} */
-
-body .headerclass nav ul> li .logo{
-    margin: 7px;
-    width: 45px;
-    height: 45px;
-    display: flex;
-    align-items: center;
-}
-/*  
-body .headerclass nav ul> li .logo.logo1{ 
-  align-items: center;
+.menu ul {
+  list-style: none;
+  padding: 0%;
 }
 
-body .headerclass nav ul> li .logo.logo2{
-align-items: center;
+.menu ul>li {
+  display: inline-block;
+
+
+
 }
-*/
+
+.imgLogo0 {
+  padding: 5px 5px 5px 10px;
+  width: 3rem;
+  height: 3rem;
+
+}
+
+.liLogo1 {
+  padding: 5px 10px 5px 10px;
+  width: 3rem;
+  height: 3rem;
+}
+
+.logo1 {
+  text-decoration: none;
+  color: rgb(158, 19, 19);
+  font-size: 1rem;
+}
+
+.imgLogo1 {
+  padding: 5px 5px 1px 10px;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.liLogo2 {
+  padding: 5px 10px 5px 10px;
+  width: 3rem;
+  height: 3rem;
+}
+
+.logo2 {
+  text-decoration: none;
+  color: rgb(158, 19, 19);
+  font-size: 1rem;
+}
+
+.imgLogo2 {
+  padding: 5px 5px 1px 10px;
+  width: 1.5rem;
+  height: 1.5rem;
+}
 
 
-/* body .headerclass nav ul> li .logo.logo3> img span{
-align-items: center;
-margin: auto;
-}  */
+.liLogo3 {
+  padding: 5px 10px 5px 10px;
+  width: 3rem;
+  height: 3rem;
+}
 
+.logo3 {
+  text-decoration: none;
+  color: rgb(158, 19, 19);
+  font-size: 1rem;
+}
 
-/* @media (max-width: 600px) {
-    body{
-      font-size: 1.3em;
-    }
+.imgLogo3 {
+  padding: 5px 5px 1px 10px;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.liLogo4 {
+  padding: 5px 10px 5px 10px;
+  width: 3rem;
+  height: 3rem;
+}
+
+.logo4 {
+  text-decoration: none;
+  color: rgb(158, 19, 19);
+  font-size: 1rem;
+}
+
+.imgLogo4 {
+  padding: 5px 5px 1px 10px;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.liLogo5 {
+  padding: 5px 10px 5px 10px;
+  width: 3rem;
+  height: 3rem;
+}
+
+.logo5 {
+  text-decoration: none;
+  color: rgb(158, 19, 19);
+  font-size: 1rem;
+}
+
+.imgLogo5 {
+  padding: 5px 5px 1px 10px;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.liLogo6 {
+  padding: 5px 10px 5px 10px;
+  width: 3rem;
+  height: 3rem;
+}
+
+.logo6 {
+  text-decoration: none;
+  color: rgb(158, 19, 19);
+  font-size: 1rem;
+}
+
+.imgLogo6 {
+  padding: 5px 5px 1px 10px;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.liLogo7 {
+  padding: 5px 10px 5px 10px;
+  width: 3rem;
+  height: 3rem;
+}
+
+.logo7 {
+  text-decoration: none;
+  color: rgb(158, 19, 19);
+  font-size: 1rem;
+}
+
+.imgLogo7 {
+  padding: 5px 5px 1px 10px;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.liLogo8 {
+  padding: 5px 10px 5px 10px;
+  width: 3rem;
+  height: 3rem;
+}
+
+.logo8 {
+  text-decoration: none;
+  color: rgb(158, 19, 19);
+  font-size: 1rem;
+}
+
+.imgLogo8 {
+  padding: 5px 5px 1px 10px;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.liLogo9 {
+  padding: 5px 10px 5px 10px;
+  width: 3rem;
+  height: 3rem;
+}
+
+.logo9 {
+  text-decoration: none;
+  color: rgb(158, 19, 19);
+  font-size: 1rem;
+}
+
+.imgLogo9 {
+  padding: 5px 5px 1px 10px;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.liLogo10 {
+  padding: 5px 10px 5px 10px;
+  width: 3rem;
+  height: 3rem;
   
-    a{
-      min-width: 40px;
-      min-height: 40px;
-    }
+}
+
+.logo10 {
+  text-decoration: none;
+  color: rgb(158, 19, 19);
+  font-size: 1rem;
+}
+
+.imgLogo10 {
+  padding: 5px 5px 1px 10px;
+  width: 1.5rem;
+  height: 1.5rem;
   
-    header {
-      height: auto;
-    }
-    header nav {
-      position: initial;
-    }
-    header nav ul{
-      margin: 0;
-    }
-    header nav ul > li {
-      display: block;
-      text-align: center;
-      padding-top: 0.3em;
-    } }       */
+}
