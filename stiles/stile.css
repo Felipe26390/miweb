@@ -3,6 +3,7 @@
 /* Aquí definimos las Custom properties */
 :root {
   --negro: black;
+  --rojo:#ff0000;
   /* Tipografía */
   --tipo-principal: Helvetica, Arial, sans-serif;
   --tipo-secundaria: Verdana;
@@ -185,266 +186,93 @@ body {
 .headerClass {
   background-image: radial-gradient(circle, green 0%, rgb(19, 29, 8) 20%, rgb(110, 204, 141) 100%);
   position: fixed;
+  display: inline-block;
+  color: var(--negro);
+  margin:0px;
+  width:  100%;
+  height: 0%;
+}
+
+ .menu {
+  background-image: radial-gradient(circle, green 0%, rgb(19, 29, 8) 20%, rgb(110, 204, 141) 100%);
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  display: flex;
   width: 100%;
+  
+} 
+
+.menu ul{
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+}
+
+.menu ul li {
+  float: none;
+  margin-top: 20px;
+  display: inline-block;
+  padding: 0px 0px 0px 0px;
+  position: relative;
+}
+
+.menu ul li a {
+  font-weight: bold;
+  padding: 10px;
 }
 
 .headerClass nav li a:hover {
-  color: rgb(197, 210, 214);
+  color: var(--rojo);
   transition: color 1s;
 }
 
-.menu {
-  display: inline-block;
-
-}
-
-.menu ul {
-  list-style: none;
-}
-
-.menu ul>li {
-  display: inline-block;
-}
-
-.imgLogo0 {
-  padding: 5px 5px 5px 10px;
-  width: 3rem;
-  height: 3rem;
-}
-
-.liLogo1 {
-  padding: 5px 10px 5px 10px;
-  width: 3rem;
-  height: 3rem;
-}
-
-.logo1 {
-  text-decoration: none;
-  color: var(--negro);
-  font-size: 1rem;
-}
-
-.imgLogo1 {
-  padding: 5px 5px 1px 10px;
+.menu ul>li a img {
   width: 1.5rem;
   height: 1.5rem;
-}
-
-.liLogo2 {
   padding: 5px 10px 5px 10px;
-  width: 3rem;
-  height: 3rem;
-}
+  
+  }
 
-.logo2 {
-  text-decoration: none;
-  color: var(--negro);
-  font-size: 1rem;
-}
-
-.imgLogo2 {
-  padding: 5px 5px 1px 10px;
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-
-.liLogo3 {
-  padding: 5px 10px 5px 10px;
-  width: 3rem;
-  height: 3rem;
-}
-
-.logo3 {
-  text-decoration: none;
-  color: var(--negro);
-  font-size: 1rem;
-}
-
-.imgLogo3 {
-  padding: 5px 5px 1px 10px;
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.liLogo4 {
-  padding: 5px 10px 5px 10px;
-  width: 3rem;
-  height: 3rem;
-}
-
-.logo4 {
-  text-decoration: none;
-  color: var(--negro);
-  font-size: 1rem;
-}
-
-.imgLogo4 {
-  padding: 5px 5px 1px 10px;
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.liLogo5 {
-  padding: 5px 10px 5px 10px;
-  width: 3rem;
-  height: 3rem;
-}
-
-.logo5 {
-  text-decoration: none;
-  color: var(--negro);
-  font-size: 1rem;
-}
-
-.imgLogo5 {
-  padding: 5px 5px 1px 10px;
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.liLogo6 {
-  padding: 5px 10px 5px 10px;
-  width: 3rem;
-  height: 3rem;
-}
-
-.logo6 {
-  text-decoration: none;
-  color: var(--negro);
-  font-size: 1rem;
-}
-
-.imgLogo6 {
-  padding: 5px 5px 1px 10px;
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.liLogo7 {
-  padding: 5px 10px 5px 10px;
-  width: 3rem;
-  height: 3rem;
-}
-
-.logo7 {
-  text-decoration: none;
-  color: var(--negro);
-  font-size: 1rem;
-}
-
-.imgLogo7 {
-  padding: 5px 5px 1px 10px;
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.liLogo8 {
-  padding: 5px 10px 5px 10px;
-  width: 3rem;
+.menu ul .liLogo0 .logo0 .imgLogo0{
+  width:  3rem;
   height: 3rem;
   position: relative;
-  top: 15px;
-  left: 95%;
+  top:  0vh;
+  /* left: -50vh; */
+  bottom: 0;
 }
 
-.logo8 {
-  text-decoration: none;
-  color: var(--negro);
-  font-size: 1rem;
-}
-
-.imgLogo8 {
-  padding: 5px 5px 1px 10px;
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.liLogo9 {
-  padding: 5px 10px 5px 10px;
-  width: 3rem;
-  height: 3rem;
-  position: relative;
-  top: 15px;
-  left: 95%;
-}
-
-.logo9 {
-  text-decoration: none;
-  color: var(--negro);
-  font-size: 1rem;
-}
-
-.imgLogo9 {
-  padding: 5px 5px 1px 10px;
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.liLogo10 {
-  padding: 5px 10px 5px 10px;
-  width: 3rem;
-  height: 3rem;
-  position: relative;
-  top: 15px;
-  left: 95%;
-}
-
-.logo10 {
-  text-decoration: none;
-  color: var(--negro);
-  font-size: 1rem;
-}
-
-.imgLogo10 {
-  padding: 5px 5px 1px 10px;
-  width: 1.5rem;
-  height: 1.5rem;
-
-}
 
 /*Main*/
 
 classMain {
-  padding-bottom: 30px;
+text-align: justify;
+padding-bottom: 50px;
 
 }
-
-/* .gallery{
-display: inline-block;
-width: 5rem;
-height: 5rem;
-padding: 5px 10px 5px 10px;
-position: absolute;
-top: auto;
-right: auto;
-bottom: auto;
-left: auto;
-} */
-
-.gallery img {
-  display: block;
-}
-
 
 
 /*Footer*/
 
 .classFooter {
   background-image: radial-gradient(circle, green 0%, rgb(19, 29, 8) 20%, rgb(110, 204, 141) 100%);
-  margin-top: 50px;
+  color: var(--rojo);
+  margin:0px;
   width: 100%;
   height: 100%;
+  position: absolute 0;
 
 }
 
-.map iframe {
-  width: auto;
-  height: auto;
+.map {
+  padding:0px;
+  margin: 0px;
   position: relative;
-  top: 40px;
-  left: 45%;
-
+  top: 3px;
+  left: 0;
+  right: 0;
+  bottom: 0;
 
 }
 
@@ -453,23 +281,25 @@ left: auto;
   display: inline-block;
   padding: 5px 10px 5px 10px;
   position: relative;
-  left: 200px;
+  left: 500px;
 }
 
-
+.classFooter .ulNav li a:hover {
+  color: rgb(197, 210, 214);
+  transition: color 1s;
+}
 
 .classFooter .ulNav li a img {
   width: 1.5rem;
   height: 1.5rem;
   padding: 5px 10px 5px 10px;
   position: relative;
-  top: 15px;
-  left: 600px;
-
+  top: 1.7vh;
+  left: 0vh;
 }
 
 .classFooter address {
-  font-size: 1rem;
+  font-size: .6rem;
   color: var(--negro)
 }
-   
+
