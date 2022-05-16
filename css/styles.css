@@ -295,20 +295,19 @@ text-align: center;
   border-radius: 2rem;
 }
 
-
 .imgClass:hover img {-webkit-transform:scale(.95);transform:scale(.95 );}
 .imgClass {overflow:hidden;}
-
-
-
 
 .map {
   margin: 4px;
   width: 100%;
+  border: .2rem solid #092214;
+  border-radius: 2rem;
+  background-color: #092214;
 }
 
 .map iframe{
-  border: .2rem solid #0d4426;
+  border: .2rem solid #092214;
   border-radius: 2rem;
 }
 
