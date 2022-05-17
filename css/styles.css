@@ -315,6 +315,7 @@ text-align: center;
 /*Footer*/
 .classFooter{
 height: 100%;
+width: 100%;
 background-image: radial-gradient(circle, rgb(158, 201, 158) 0%, rgb(160, 223, 93) 20%, rgb(26, 90, 47) 100%);
 
 }
