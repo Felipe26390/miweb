@@ -3,7 +3,7 @@
 /* Aquí definimos las Custom properties */
 :root {
   --negro: black;
-  --rojo:#ff0000;
+  --rojo: #ff0000;
   /* Tipografía */
   --tipo-principal: Helvetica, Arial, sans-serif;
   --tipo-secundaria: Verdana;
@@ -11,19 +11,19 @@
 
 /* Modifico mi Srollbar */
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
 
-::-webkit-scrollbar-track{
-background: #0d4426;
+::-webkit-scrollbar-track {
+  background: #0d4426;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background: #67c718;
   border-radius: .2em;
-  }
+}
 
 
 /* Las adaptamos al modo oscuro */
@@ -190,21 +190,21 @@ body {
 
 /*Header Navegaitor*/
 
- .menu {
+.menu {
   width: 100%;
   height: auto;
   background-image: radial-gradient(circle, rgb(158, 201, 158) 0%, rgb(160, 223, 93) 20%, rgb(26, 90, 47) 100%);
   position: fixed;
-} 
+}
 
-.ulMenu{
+.ulMenu {
   width: 100%;
   height: 100%;
   margin-top: 10px;
   padding: 10px;
   display: flex;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -212,49 +212,61 @@ body {
   width: 1.5rem;
   height: 1.5rem;
   padding: 5px 10px 5px 10px;
-  }
+}
 
-.ulMenu .liLogo0 .logo0 img{
-  width:  3rem;
+.ulMenu .liLogo0 .logo0 img {
+  width: 3rem;
   height: 3rem;
 }
 
 
-.imgLogo0:hover{
-  border-radius:50%;
-  -webkit-border-radius:50%;
+.imgLogo0:hover {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
   box-shadow: 0px 0px 15px 15px #3f6b365e;
   -webkit-box-shadow: 0px 0px 15px 15px #44793d;
   transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
-  }
+}
 
 
-  .logo:hover .imgLogo {-webkit-transform:scale(1.3);transform:scale(1.3);}
-  .logo {overflow:hidden;}
+.logo:hover .imgLogo {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.logo {
+  overflow: hidden;
+}
 
 .ulMenu li a:hover {
   color: var(--rojo);
   transition: color 1s;
 }
 
+.active{
+  opacity: 0.1;
+  pointer-events: none;
+}
+
 
 /*Main*/
-.classMain{
+.classMain {
   width: auto;
   height: auto;
 }
+
 .flexConteiner {
   width: 100%;
   height: 100%;
   background-color: #2694425d;
   padding-top: 6rem;
   padding-bottom: 1rem;
-   display: flex;
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
- 
+
 }
 
 .gallery {
@@ -263,40 +275,46 @@ body {
   margin: 5px;
 }
 
-.gallery img{
-  width:200px;
-  height:200px;
+.gallery img {
+  width: 200px;
+  height: 200px;
   border: .2rem solid #5c635fb4;
   border-radius: 2rem;
 }
 
 
-h1{
+h1 {
   text-align: center;
   font-size: large;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-p{
+p {
   margin-left: .5rem;
   margin-right: .5rem;
   text-align: justify;
 }
 
-.imgClass{
-width: 25%;
-height: 25%;
-margin: 0 auto;
-text-align: center;
+.imgClass {
+  width: 25%;
+  height: 25%;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.imgClass img{
+.imgClass img {
   border: .2rem solid #a9bbb1af;
   border-radius: 2rem;
 }
 
-.imgClass:hover img {-webkit-transform:scale(.95);transform:scale(.95 );}
-.imgClass {overflow:hidden;}
+.imgClass:hover img {
+  -webkit-transform: scale(.95);
+  transform: scale(.95);
+}
+
+.imgClass {
+  overflow: hidden;
+}
 
 .map {
   margin: 4px;
@@ -306,21 +324,21 @@ text-align: center;
   background-color: #092214;
 }
 
-.map iframe{
+.map iframe {
   border: .2rem solid #092214;
   border-radius: 2rem;
 }
 
 
 /*Footer*/
-.classFooter{
-height: 100%;
-width: 100%;
-background-image: radial-gradient(circle, rgb(158, 201, 158) 0%, rgb(160, 223, 93) 20%, rgb(26, 90, 47) 100%);
+.classFooter {
+  height: 100%;
+  width: 100%;
+  background-image: radial-gradient(circle, rgb(158, 201, 158) 0%, rgb(160, 223, 93) 20%, rgb(26, 90, 47) 100%);
 
 }
 
-.classFooter .ulNav{
+.classFooter .ulNav {
   background-image: radial-gradient(circle, rgb(158, 201, 158) 0%, rgb(160, 223, 93) 20%, rgb(26, 90, 47) 100%);
   height: 100%;
   align-items: center;
@@ -346,7 +364,7 @@ background-image: radial-gradient(circle, rgb(158, 201, 158) 0%, rgb(160, 223, 9
 }
 
 .classFooter .ulNav li a:hover {
-  color:var(--rojo);
+  color: var(--rojo);
   transition: color 1s;
 }
 
@@ -365,7 +383,7 @@ background-image: radial-gradient(circle, rgb(158, 201, 158) 0%, rgb(160, 223, 9
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  align-items:center ;
+  align-items: center;
 }
 
 /* ABOUT US Estilos que no comparte con el INDEX */
@@ -397,25 +415,24 @@ background-image: radial-gradient(circle, rgb(158, 201, 158) 0%, rgb(160, 223, 9
 }
 
 .galleryExperiences {
-  width:  1000px;
+  width: 1000px;
   height: 200px;
   margin-top: 20px;
   margin-bottom: 20px;
-  text-align: center
-  ;
+  text-align: center;
 }
 
-.galleryExperiences img{
-  width:1000px;
-  height:200px;
+.galleryExperiences img {
+  width: 1000px;
+  height: 200px;
   border: .2rem solid #5c635fb4;
   border-radius: 2rem;
 }
 
 
 /* GALLERY Estilos que no comparte con el INDEX */
-.mainGallery{
-background-color: rgb(110, 136, 158);
+.mainGallery {
+  background-color: rgb(110, 136, 158);
 }
 
 .h1Gallery {
@@ -444,8 +461,9 @@ background-color: rgb(110, 136, 158);
   padding-right: 0;
   overflow: hidden;
 }
+
 /* Checkear */
-  .galleryClassA{
+.galleryClassA {
   display: block;
   position: relative;
   overflow: hidden;
@@ -460,12 +478,12 @@ background-color: rgb(110, 136, 158);
   transition: transform 0.5s;
 }
 
-.galleryClassA:hover img{
-  filter:blur(2px);
+.galleryClassA:hover img {
+  filter: blur(2px);
   transform: rotate(10deg) scale(1.3);
 }
 
-.lightBox{
+.lightBox {
   position: fixed;
   top: 0;
   left: 0;
@@ -480,17 +498,17 @@ background-color: rgb(110, 136, 158);
   transform: scale(0);
 }
 
-.lightBox img{
+.lightBox img {
   width: 75vh;
-  max-height: 70vh ;
+  max-height: 70vh;
 }
 
-.lightBox:target{
+.lightBox:target {
   transform: scale(1);
 
 }
 
-.close{
+.close {
   display: block;
   position: absolute;
   top: 40px;
@@ -504,7 +522,7 @@ background-color: rgb(110, 136, 158);
   border-radius: 50%;
 }
 
-.next{
+.next {
   display: block;
   background: #550b51;
   color: aliceblue;
@@ -512,7 +530,4 @@ background-color: rgb(110, 136, 158);
   width: 30px;
   line-height: 30px;
   text-align: center;
-  
 }
-
-

@@ -70,7 +70,7 @@
                         <span>Rooms</span>
                     </a>
                 </li>
-           
+
                 <li class="liLogo">
                     <a class="logo" href="http://facebook.com/username" target="_blank">
                         <img class="imgLogo" src="../assets/facebook.png" alt="Facebook"></a>
@@ -85,9 +85,11 @@
                     <a class="logo" href="http://whatsapp.com/user/username" target="_blank">
                         <img class="imgLogo" src="../assets/whatsapp.png" alt="Whatsapp"></a>
                 </li>
-         
-                <li class="liLogo"><a class="logo" href="https://www.google.com/maps/place/Ruta+Provincial+39+%26+Ruta+J,+Entre+R%C3%ADos,+Argentina/@-32.4696748,-58.4352981,407m/data=!3m1!1e3!4m5!3m4!1s0x95b028951ed1d76b:0x74644952f18a9620!8m2!3d-32.4787068!4d-58.437727" target="_blank">
-                    <img class="imgLogo" src="../assets/google-maps.png" alt="Ubicacion"></a></li>
+
+                <li class="liLogo"><a class="logo"
+                        href="https://www.google.com/maps/place/Ruta+Provincial+39+%26+Ruta+J,+Entre+R%C3%ADos,+Argentina/@-32.4696748,-58.4352981,407m/data=!3m1!1e3!4m5!3m4!1s0x95b028951ed1d76b:0x74644952f18a9620!8m2!3d-32.4787068!4d-58.437727"
+                        target="_blank">
+                        <img class="imgLogo" src="../assets/google-maps.png" alt="Ubicacion"></a></li>
 
 
             </ul>
@@ -96,115 +98,79 @@
 
     </header>
 
-    <form>
+    <main>
+        <h1>Contact</h1>
+        <form>
+            <div class="form-group">
+                <label for="nombre">Name</label>
+                <input id="nombre" name="nombre" />
+            </div>
+            <div class="form-group">
+                <label for="surname">Surname</label>
+                <input id="surname" name="surname" />
+            </div>
+            <div class="form-group">
+                <label for="rooms">Rooms</label>
+                <select id="rooms" name="rooms">
+                    <option value="1">Picadilly</option>
+                    <option value="2">Cambridge</option>
+                    <option value="3">Westminster</option>
+                </select>
+            </div>
+            <div class="form-group ">
+                <label>Customer?</label>
+                <label class="check-label">Yes </label>
+                <input type="radio" name="customer" value="1" checked>
+                <label class="check-label">No </label>
+                <input type="radio" name="customer" value="0">
+            </div>
+            <div class="form-group ">
+                <label>Terms of service</label>
+                <label class="check-label check-container">
+                    I agree
+                    <input type="checkbox" name="agreement" />
+                    <span class="check-layout"></span>
+                </label>
 
-        <label for="nombre_apellido">Ingrese nombre y apellido</label>
-        <input type="text" name="nombre_apellido" /> <br>
-
-        <label for="edad">Ingrese Edad</label>
-        <input type="number" name="edad" /> <br>
-
-
-
-        <input type="submit" value="Enviar formulario" />
-        <input type="reset" value="Limpiar formulario" />
-        <input type="button" value="Sin acciones" /> <br> <br>
-
-        <div>Hombre</div>
-        <input type="radio" name="sexo" value="Hombre" />
-
-        <div>Mujer</div>
-        <input type="radio" name="sexo" value="Mujer" /> <br> <br>
-
-        <div>Seleccione Talle</div>
-        <select name="talles">
-            <option value="L">Large</option>
-            <option value="M">Medium</option>
-            <option value="S">Small</option>
-        </select>
-
-        <div>I agree.</div>
-        <input type="checkbox" name="acepta" value="1" />
-
-
-    </form>
-
-    <h1>Contact</h1>
-            <form>
-                <div class="form-group">
-                    <label for="nombre">Name</label>
-                    <input id="nombre" name="nombre" />
-                </div>
-                <div class="form-group">
-                    <label for="surname">Surname</label>
-                    <input id="surname" name="surname" />
-                </div>
-                <div class="form-group">
-                    <label for="address">Email</label>
-                    <input id="address" name="address" />
-                </div>
-                <address>
-                    <label for="address">Email</label>
-                    <input id="address" name="address" />
-                </address>
-
-                <div class="form-group">
-                    <label for="rooms">Rooms</label>
-                    <select id="rooms" name="rooms">
-                        <option value="1">Picadilly</option>
-                        <option value="2">Cambridge</option>
-                        <option value="3">Westminster</option>
-                    </select>
-                </div>
-                <div class="form-group ">
-                    <label>Customer?</label>
-                    <label class="check-label">Yes </label>
-                    <input type="radio" name="customer" value="1" checked>
-                    <label class="check-label" >No </label>
-                    <input type="radio" name="customer" value="0" >
-                </div>
-                <div class="form-group ">
-                    <label>Terms of service</label>
-                    <label class="check-label check-container">
-                        I agree
-                        <input type="checkbox" name="agreement" />
-                        <span class="check-layout"></span>
-                    </label>
-
-                </div>
-                <button class="button degraqdado-base">Enviar</button>
-                <div></div><br><button class="button degraqdado-base">Cancelar</button>
-            </form>
+            </div>
+            <button class="button degraqdado-base">Enviar</button>
+            <div class="button degraqdado-base">Cancelar</div>
+        </form>
+    </main>
 
 
 
-            <footer class="classFooter">
-                <ul class="ulNav">
-                    <li><a href="../abautus.html">About Us</a></li>
-        
-                    <li><a href="../contacts.html">Contacts</a></li>
-        
-                    <li><a href="../gallery.html">Galley</a></li>
-        
-                    <li><a href="#header">Back</a></li>
-        
-                    <li><a href="https://www.instagram.com/posada_los_aromitos/" target="_blank"><img src="../assets/instagram.png"alt="Instagram"></a></li>
-                    
-                    <li><a href="http://facebook.com/username" target="_blank"><img src="../assets/facebook.png" alt="Facebook"></a></li>
-                    
-                    <li><a href="http://youtube.com/user/username" target="_blank"><img src="../assets/youtube.png" alt="YouTube"></a></li>
-                  
-                    <li><a href="https://www.google.com/maps/place/Ruta+Provincial+39+%26+Ruta+J,+Entre+R%C3%ADos,+Argentina/@-32.4696748,-58.4352981,407m/data=!3m1!1e3!4m5!3m4!1s0x95b028951ed1d76b:0x74644952f18a9620!8m2!3d-32.4787068!4d-58.437727" target="_blank"><img src="../assets/google-maps.png" alt="Ubicacion"></a></li>
-        
-                
-                </ul>
-                
-                <address>
-                    Made for FJB &#128512.
-                    Felipe Jose Bouilly.
-                </address>
-        
-            </footer>
+    <footer class="classFooter">
+        <ul class="ulNav">
+            <li><a href="abautus.html">About Us</a></li>
+
+            <li><a href="contacts.html">Contacts</a></li>
+
+            <li><a href="gallery.html">Galley</a></li>
+
+            <li><a href="#header">Back</a></li>
+
+            <li><a href="https://www.instagram.com/posada_los_aromitos/" target="_blank"><img
+                        src="../assets/instagram.png" alt="Instagram"></a></li>
+
+            <li><a href="http://facebook.com/username" target="_blank"><img src="../assets/facebook.png"
+                        alt="Facebook"></a></li>
+
+            <li><a href="http://youtube.com/user/username" target="_blank"><img src="../assets/youtube.png"
+                        alt="YouTube"></a></li>
+
+            <li><a href="https://www.google.com/maps/place/Ruta+Provincial+39+%26+Ruta+J,+Entre+R%C3%ADos,+Argentina/@-32.4696748,-58.4352981,407m/data=!3m1!1e3!4m5!3m4!1s0x95b028951ed1d76b:0x74644952f18a9620!8m2!3d-32.4787068!4d-58.437727"
+                    target="_blank"><img src="../assets/google-maps.png" alt="Ubicacion"></a></li>
+
+
+        </ul>
+
+        <address>
+            Made for FJB &#128512.
+            Felipe Jose Bouilly.
+        </address>
+
+    </footer>
 
 </body>
 
